@@ -1,0 +1,73 @@
+.button {
+    -fx-background-color: #05071F;
+    -fx-text-fill: #E7E5E5;
+}
+
+.button:hover {
+    -fx-background-color : #10165F;
+    -fx-border-color: blue;
+}
+
+.button:pressed {
+    -fx-background-color: #1620A1;
+}
+
+.scroll-pane {
+    -fx-background-color: #02030A;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #10165F;
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: black;
+}
+
+.item {
+    -fx-background-color: #02030A;
+    -fx-background-radius: 5;
+    -fx-background-insets: 0;
+    -fx-border-color: blue;
+}
+
+.toggle-button: {
+    -fx-background-color: #FF0000;
+}
+
+.buttonShut {
+    -fx-text-fill: #000000;
+}
+
+.buttonShut:hover {
+     -fx-background-color: #FF0000;
+}
+
+.status-button:hover {
+     -fx-background-color: #0000FF;
+}
+
+.search {
+    -fx-background-color: #02030A;
+    -fx-border-color: #B7C3D7;
+    -fx-border-radius: 2em;
+    -fx-text-fill: #FFFFFF;
+}
